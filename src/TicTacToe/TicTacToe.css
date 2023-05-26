@@ -1,0 +1,35 @@
+.container{
+    display: flex;
+    justify-content: center;
+}
+table td {
+    border:1px solid black;
+    width: 100px;
+    height: 100px;
+}
+.playbtn{
+    background-color: rgb(227 209 122);
+    height: 50px;
+    width: 150px;
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: 10px;
+}
+.w_st{
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+.playbtn:hover{
+    background-color: rgb(28, 241, 85);
+    font-size: 25px;
+    cursor: pointer;
+    font-weight:500;
+    
+}
+.display_name{
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    font-weight: 1000;
+}
